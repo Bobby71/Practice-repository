@@ -1,0 +1,18 @@
+var timeoutID;
+
+function delayedAlert() {
+  timeoutID = //YOUR CODE HERE
+    
+    window.setTimeout(function(){
+    alert("Hi");
+  }, 2000);
+}
+
+function slowAlert() {
+  alert("That was really slow!");
+}
+
+function clearAlert() {
+  //YOUR CODE HERE
+  window.clearTimeout(timeoutID);
+}
